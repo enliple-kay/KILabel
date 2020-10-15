@@ -38,23 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C97DB2EA183A56EF0028EA5C /* KILabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KILabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97DB2EA183A56EF0028EA5C /* KILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KILabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97DB2ED183A56EF0028EA5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C97DB2EF183A56EF0028EA5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C97DB2F1183A56EF0028EA5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C97DB2F5183A56EF0028EA5C /* KILabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KILabelDemo-Info.plist"; sourceTree = "<group>"; };
+		C97DB2F5183A56EF0028EA5C /* KILabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KILabel-Info.plist"; sourceTree = "<group>"; };
 		C97DB2F7183A56EF0028EA5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C97DB2F9183A56EF0028EA5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C97DB2FB183A56EF0028EA5C /* KILabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KILabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C97DB2FB183A56EF0028EA5C /* KILabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KILabel-Prefix.pch"; sourceTree = "<group>"; };
 		C97DB2FC183A56EF0028EA5C /* KIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAppDelegate.h; sourceTree = "<group>"; };
 		C97DB2FD183A56EF0028EA5C /* KIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAppDelegate.m; sourceTree = "<group>"; };
 		C97DB300183A56EF0028EA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C97DB302183A56EF0028EA5C /* KIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIViewController.h; sourceTree = "<group>"; };
 		C97DB303183A56EF0028EA5C /* KIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIViewController.m; sourceTree = "<group>"; };
 		C97DB305183A56EF0028EA5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C97DB30B183A56F00028EA5C /* KILabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KILabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97DB30B183A56F00028EA5C /* KILabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KILabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97DB30C183A56F00028EA5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C97DB314183A56F00028EA5C /* KILabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KILabelDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C97DB314183A56F00028EA5C /* KILabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KILabelTests-Info.plist"; sourceTree = "<group>"; };
 		C97DB316183A56F00028EA5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C97DB318183A56F00028EA5C /* KILabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KILabelDemoTests.m; sourceTree = "<group>"; };
 		C97DB323183A57110028EA5C /* KILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KILabel.h; path = ../KILabel/Source/KILabel.h; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 		C97DB2EB183A56EF0028EA5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C97DB2EA183A56EF0028EA5C /* KILabelDemo.app */,
-				C97DB30B183A56F00028EA5C /* KILabelDemoTests.xctest */,
+				C97DB2EA183A56EF0028EA5C /* KILabel.app */,
+				C97DB30B183A56F00028EA5C /* KILabelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,10 +144,10 @@
 		C97DB2F4183A56EF0028EA5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C97DB2F5183A56EF0028EA5C /* KILabelDemo-Info.plist */,
+				C97DB2F5183A56EF0028EA5C /* KILabel-Info.plist */,
 				C97DB2F6183A56EF0028EA5C /* InfoPlist.strings */,
 				C97DB2F9183A56EF0028EA5C /* main.m */,
-				C97DB2FB183A56EF0028EA5C /* KILabelDemo-Prefix.pch */,
+				C97DB2FB183A56EF0028EA5C /* KILabel-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 		C97DB313183A56F00028EA5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C97DB314183A56F00028EA5C /* KILabelDemoTests-Info.plist */,
+				C97DB314183A56F00028EA5C /* KILabelTests-Info.plist */,
 				C97DB315183A56F00028EA5C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -182,9 +182,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C97DB2E9183A56EF0028EA5C /* KILabelDemo */ = {
+		C97DB2E9183A56EF0028EA5C /* KILabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C97DB31C183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabelDemo" */;
+			buildConfigurationList = C97DB31C183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabel" */;
 			buildPhases = (
 				C97DB2E6183A56EF0028EA5C /* Sources */,
 				C97DB2E7183A56EF0028EA5C /* Frameworks */,
@@ -194,14 +194,14 @@
 			);
 			dependencies = (
 			);
-			name = KILabelDemo;
+			name = KILabel;
 			productName = KILabelDemo;
-			productReference = C97DB2EA183A56EF0028EA5C /* KILabelDemo.app */;
+			productReference = C97DB2EA183A56EF0028EA5C /* KILabel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C97DB30A183A56F00028EA5C /* KILabelDemoTests */ = {
+		C97DB30A183A56F00028EA5C /* KILabelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C97DB31F183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabelDemoTests" */;
+			buildConfigurationList = C97DB31F183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabelTests" */;
 			buildPhases = (
 				C97DB307183A56F00028EA5C /* Sources */,
 				C97DB308183A56F00028EA5C /* Frameworks */,
@@ -212,9 +212,9 @@
 			dependencies = (
 				C97DB311183A56F00028EA5C /* PBXTargetDependency */,
 			);
-			name = KILabelDemoTests;
+			name = KILabelTests;
 			productName = KILabelDemoTests;
-			productReference = C97DB30B183A56F00028EA5C /* KILabelDemoTests.xctest */;
+			productReference = C97DB30B183A56F00028EA5C /* KILabelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -232,11 +232,12 @@
 					};
 				};
 			};
-			buildConfigurationList = C97DB2E5183A56EF0028EA5C /* Build configuration list for PBXProject "KILabelDemo" */;
+			buildConfigurationList = C97DB2E5183A56EF0028EA5C /* Build configuration list for PBXProject "KILabel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -245,8 +246,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C97DB2E9183A56EF0028EA5C /* KILabelDemo */,
-				C97DB30A183A56F00028EA5C /* KILabelDemoTests */,
+				C97DB2E9183A56EF0028EA5C /* KILabel */,
+				C97DB30A183A56F00028EA5C /* KILabelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +300,7 @@
 /* Begin PBXTargetDependency section */
 		C97DB311183A56F00028EA5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C97DB2E9183A56EF0028EA5C /* KILabelDemo */;
+			target = C97DB2E9183A56EF0028EA5C /* KILabel */;
 			targetProxy = C97DB310183A56F00028EA5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,8 +409,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KILabelDemo/KILabelDemo-Prefix.pch";
-				INFOPLIST_FILE = "KILabelDemo/KILabelDemo-Info.plist";
+				GCC_PREFIX_HEADER = "KILabelDemo/KILabel-Prefix.pch";
+				INFOPLIST_FILE = "KILabelDemo/KILabel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,8 +422,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KILabelDemo/KILabelDemo-Prefix.pch";
-				INFOPLIST_FILE = "KILabelDemo/KILabelDemo-Info.plist";
+				GCC_PREFIX_HEADER = "KILabelDemo/KILabel-Prefix.pch";
+				INFOPLIST_FILE = "KILabelDemo/KILabel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,7 +444,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "KILabelDemoTests/KILabelDemoTests-Info.plist";
+				INFOPLIST_FILE = "KILabelDemoTests/KILabelTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -461,7 +462,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KILabelDemo/KILabelDemo-Prefix.pch";
-				INFOPLIST_FILE = "KILabelDemoTests/KILabelDemoTests-Info.plist";
+				INFOPLIST_FILE = "KILabelDemoTests/KILabelTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -471,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C97DB2E5183A56EF0028EA5C /* Build configuration list for PBXProject "KILabelDemo" */ = {
+		C97DB2E5183A56EF0028EA5C /* Build configuration list for PBXProject "KILabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C97DB31A183A56F00028EA5C /* Debug */,
@@ -480,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C97DB31C183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabelDemo" */ = {
+		C97DB31C183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C97DB31D183A56F00028EA5C /* Debug */,
@@ -489,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C97DB31F183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabelDemoTests" */ = {
+		C97DB31F183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C97DB320183A56F00028EA5C /* Debug */,
