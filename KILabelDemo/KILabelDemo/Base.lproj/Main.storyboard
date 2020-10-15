@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is an interactive @label. Tap or hold http://www.google.com and #marvel!" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="9Ku-Sw-eBB" customClass="KILabel">
-                                <rect key="frame" x="20" y="192" width="374" height="61"/>
+                                <rect key="frame" x="20" y="192" width="374" height="59.5"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -197,10 +197,10 @@
     </scenes>
     <designables>
         <designable name="9Ku-Sw-eBB">
-            <size key="intrinsicContentSize" width="271" height="61"/>
+            <size key="intrinsicContentSize" width="271" height="59.5"/>
         </designable>
         <designable name="JAr-pI-JSD">
-            <size key="intrinsicContentSize" width="42" height="21"/>
+            <size key="intrinsicContentSize" width="41.5" height="20.5"/>
         </designable>
     </designables>
 </document>

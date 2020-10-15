@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3659CB25382A0B00F2B567 /* KILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3659C925382A0B00F2B567 /* KILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A3659CE25382A0B00F2B567 /* KILabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3659C725382A0B00F2B567 /* KILabel.framework */; };
+		6A3659CF25382A0B00F2B567 /* KILabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3659C725382A0B00F2B567 /* KILabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A3659D625382A1500F2B567 /* KILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C97DB324183A57110028EA5C /* KILabel.m */; };
 		C97DB2EE183A56EF0028EA5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DB2ED183A56EF0028EA5C /* Foundation.framework */; };
 		C97DB2F0183A56EF0028EA5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DB2EF183A56EF0028EA5C /* CoreGraphics.framework */; };
 		C97DB2F2183A56EF0028EA5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DB2F1183A56EF0028EA5C /* UIKit.framework */; };
@@ -28,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6A3659CC25382A0B00F2B567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97DB2E2183A56EF0028EA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A3659C625382A0B00F2B567;
+			remoteInfo = KILabel;
+		};
 		C97DB310183A56F00028EA5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C97DB2E2183A56EF0028EA5C /* Project object */;
@@ -37,8 +48,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6A3659D325382A0B00F2B567 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6A3659CF25382A0B00F2B567 /* KILabel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		C97DB2EA183A56EF0028EA5C /* KILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KILabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3659C725382A0B00F2B567 /* KILabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KILabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3659C925382A0B00F2B567 /* KILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KILabel.h; sourceTree = "<group>"; };
+		6A3659CA25382A0B00F2B567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97DB2EA183A56EF0028EA5C /* KILabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KILabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97DB2ED183A56EF0028EA5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C97DB2EF183A56EF0028EA5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C97DB2F1183A56EF0028EA5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -67,12 +95,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6A3659C425382A0B00F2B567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C97DB2E7183A56EF0028EA5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C97DB327183A59670028EA5C /* MessageUI.framework in Frameworks */,
 				C97DB2F0183A56EF0028EA5C /* CoreGraphics.framework in Frameworks */,
+				6A3659CE25382A0B00F2B567 /* KILabel.framework in Frameworks */,
 				C97DB2F2183A56EF0028EA5C /* UIKit.framework in Frameworks */,
 				C97DB2EE183A56EF0028EA5C /* Foundation.framework in Frameworks */,
 			);
@@ -91,12 +127,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A3659C825382A0B00F2B567 /* KILabel */ = {
+			isa = PBXGroup;
+			children = (
+				6A3659C925382A0B00F2B567 /* KILabel.h */,
+				6A3659CA25382A0B00F2B567 /* Info.plist */,
+			);
+			path = KILabel;
+			sourceTree = "<group>";
+		};
 		C97DB2E1183A56EF0028EA5C = {
 			isa = PBXGroup;
 			children = (
 				C97DB322183A57010028EA5C /* KILabel */,
 				C97DB2F3183A56EF0028EA5C /* KILabelDemo */,
 				C97DB312183A56F00028EA5C /* KILabelDemoTests */,
+				6A3659C825382A0B00F2B567 /* KILabel */,
 				C97DB2EC183A56EF0028EA5C /* Frameworks */,
 				C97DB2EB183A56EF0028EA5C /* Products */,
 			);
@@ -105,8 +151,9 @@
 		C97DB2EB183A56EF0028EA5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C97DB2EA183A56EF0028EA5C /* KILabel.app */,
+				C97DB2EA183A56EF0028EA5C /* KILabelDemo.app */,
 				C97DB30B183A56F00028EA5C /* KILabelTests.xctest */,
+				6A3659C725382A0B00F2B567 /* KILabel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,22 +228,53 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6A3659C225382A0B00F2B567 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3659CB25382A0B00F2B567 /* KILabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		C97DB2E9183A56EF0028EA5C /* KILabel */ = {
+		6A3659C625382A0B00F2B567 /* KILabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C97DB31C183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabel" */;
+			buildConfigurationList = 6A3659D025382A0B00F2B567 /* Build configuration list for PBXNativeTarget "KILabel" */;
 			buildPhases = (
-				C97DB2E6183A56EF0028EA5C /* Sources */,
-				C97DB2E7183A56EF0028EA5C /* Frameworks */,
-				C97DB2E8183A56EF0028EA5C /* Resources */,
+				6A3659C225382A0B00F2B567 /* Headers */,
+				6A3659C325382A0B00F2B567 /* Sources */,
+				6A3659C425382A0B00F2B567 /* Frameworks */,
+				6A3659C525382A0B00F2B567 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = KILabel;
+			productName = KILabel;
+			productReference = 6A3659C725382A0B00F2B567 /* KILabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C97DB2E9183A56EF0028EA5C /* KILabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97DB31C183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabelDemo" */;
+			buildPhases = (
+				C97DB2E6183A56EF0028EA5C /* Sources */,
+				C97DB2E7183A56EF0028EA5C /* Frameworks */,
+				C97DB2E8183A56EF0028EA5C /* Resources */,
+				6A3659D325382A0B00F2B567 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A3659CD25382A0B00F2B567 /* PBXTargetDependency */,
+			);
+			name = KILabelDemo;
 			productName = KILabelDemo;
-			productReference = C97DB2EA183A56EF0028EA5C /* KILabel.app */;
+			productReference = C97DB2EA183A56EF0028EA5C /* KILabelDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C97DB30A183A56F00028EA5C /* KILabelTests */ = {
@@ -227,6 +305,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Matthew Styles";
 				TargetAttributes = {
+					6A3659C625382A0B00F2B567 = {
+						CreatedOnToolsVersion = 12.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					C97DB30A183A56F00028EA5C = {
 						TestTargetID = C97DB2E9183A56EF0028EA5C;
 					};
@@ -246,13 +328,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C97DB2E9183A56EF0028EA5C /* KILabel */,
+				C97DB2E9183A56EF0028EA5C /* KILabelDemo */,
 				C97DB30A183A56F00028EA5C /* KILabelTests */,
+				6A3659C625382A0B00F2B567 /* KILabel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6A3659C525382A0B00F2B567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C97DB2E8183A56EF0028EA5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +364,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6A3659C325382A0B00F2B567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3659D625382A1500F2B567 /* KILabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C97DB2E6183A56EF0028EA5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,9 +396,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6A3659CD25382A0B00F2B567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A3659C625382A0B00F2B567 /* KILabel */;
+			targetProxy = 6A3659CC25382A0B00F2B567 /* PBXContainerItemProxy */;
+		};
 		C97DB311183A56F00028EA5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C97DB2E9183A56EF0028EA5C /* KILabel */;
+			target = C97DB2E9183A56EF0028EA5C /* KILabelDemo */;
 			targetProxy = C97DB310183A56F00028EA5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -333,6 +436,102 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6A3659D125382A0B00F2B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = KILabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vigwave.KILabel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A3659D225382A0B00F2B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = KILabel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vigwave.KILabel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C97DB31A183A56F00028EA5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,6 +610,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KILabelDemo/KILabel-Prefix.pch";
 				INFOPLIST_FILE = "KILabelDemo/KILabel-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -424,6 +624,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KILabelDemo/KILabel-Prefix.pch";
 				INFOPLIST_FILE = "KILabelDemo/KILabel-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -472,6 +673,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6A3659D025382A0B00F2B567 /* Build configuration list for PBXNativeTarget "KILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3659D125382A0B00F2B567 /* Debug */,
+				6A3659D225382A0B00F2B567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C97DB2E5183A56EF0028EA5C /* Build configuration list for PBXProject "KILabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -481,7 +691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C97DB31C183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabel" */ = {
+		C97DB31C183A56F00028EA5C /* Build configuration list for PBXNativeTarget "KILabelDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C97DB31D183A56F00028EA5C /* Debug */,
