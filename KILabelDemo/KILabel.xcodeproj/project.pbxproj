@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A3659CB25382A0B00F2B567 /* KILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3659C925382A0B00F2B567 /* KILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A3659CE25382A0B00F2B567 /* KILabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3659C725382A0B00F2B567 /* KILabel.framework */; };
 		6A3659CF25382A0B00F2B567 /* KILabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3659C725382A0B00F2B567 /* KILabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A3659D625382A1500F2B567 /* KILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C97DB324183A57110028EA5C /* KILabel.m */; };
+		6ACB89F625466F3D0084B56D /* KILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C97DB323183A57110028EA5C /* KILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C97DB2EE183A56EF0028EA5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DB2ED183A56EF0028EA5C /* Foundation.framework */; };
 		C97DB2F0183A56EF0028EA5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DB2EF183A56EF0028EA5C /* CoreGraphics.framework */; };
 		C97DB2F2183A56EF0028EA5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97DB2F1183A56EF0028EA5C /* UIKit.framework */; };
@@ -233,7 +233,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A3659CB25382A0B00F2B567 /* KILabel.h in Headers */,
+				6ACB89F625466F3D0084B56D /* KILabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
